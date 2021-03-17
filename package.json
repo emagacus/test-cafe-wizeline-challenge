@@ -1,0 +1,25 @@
+{
+  "name": "test-cafe-wizeline-challenge",
+  "version": "1.0.0",
+  "description": "Homework session 1",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./page_model/test --reporter html:Report.html",
+    "test-all-edge": "testcafe edge ./page_model/test --reporter html:Report.html",
+    "test-all-firefox": "testcafe firefox ./page_model/test --reporter html:Report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emagacus/test-cafe-wizeline-challenge.git"
+  },
+  "author": "Emmanuel Gallardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emagacus/test-cafe-wizeline-challenge/issues"
+  },
+  "homepage": "https://github.com/emagacus/test-cafe-wizeline-challenge#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
